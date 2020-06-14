@@ -1,0 +1,149 @@
+html {
+	margin: 0 auto;
+}
+
+#nav {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.navlist {
+	list-style-type: none;
+	margin: 10px 10px; 
+	font-size: 13px;
+	padding: 5px 0px;
+	
+}
+
+.navlinks:link {
+	text-decoration: none;
+	color: black;
+}
+
+.navlinks:hover {
+	text-decoration: underline;
+}
+
+.navlist:nth-of-type(1){
+	font-weight: bold;
+	border: 1px solid #4285f4;
+	text-decoration: none;
+	background: #4285f4;
+	padding: 5px 10px;
+} 
+
+#sign-in-button:link { 
+	color: white;
+}
+
+.search-bar {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.searchlist {
+	list-style-type: none;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#search {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	width: 600px;
+	padding-top: 20px;
+}
+
+.search-button {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	font-size: 15px;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.search-button:link {
+	color: #5F6368;
+}
+
+.search-button:hover {
+	color: black;
+	box-shadow: 1px 1px 2px;
+
+}
+
+.search-box {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.language-list {
+	list-style-type: none;
+	padding: 10px; 
+}
+
+.languages {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.language-links:link {
+	text-decoration: none;
+}
+
+.language-links:hover {
+	text-decoration: underline;
+}
+
+#sg-bar {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	color: #5F6368;
+	margin: 0;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+footer {
+	margin: 0;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+#policy-bar {
+	border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        color: #5F6368;
+	margin: 0;
+	font-size: 15px;
+	width: 1835px;
+	display: inline-block;
+	height: auto;
+	padding-left: 0px;
+}
+
+#fbar1 {
+	list-style-type: none;
+	display: flex;
+}
+
+.fbar1-links {
+	padding: 0 10px;
+}
+
+#privacy {
+	padding-left: 1100px;
+}
+
